@@ -9,18 +9,24 @@ spacings in a single plot. The shape of plot is circular with some number of con
 
 ### Input
 
+#### Practical Parameters
+
+* Minimum planting density
+* Maximum planting density
+* Number of density range
+* Rectangularity
+  
+#### Standard Parameters
+
 * Plot dimension (Width, Height)
+* Initial radius (r_0)
+* Constant increment of arcs radius (α)
+* Division angle of spokes (θ)
+
+#### Additional Parameters
+
 * Center of rotation (x, y)
-* #### Standard Parameters
-  * Initial radius (r_0)
-  * Constant increment of arcs radius (α)
-  * Division angle of spokes (θ)
-* #### Practical Parameters
-  * Minimum planting density
-  * Maximum planting density
-  * Number of density range
-  * Rectangularity
-  * Number of species
+* Number of Species
 
 ### Output
 
@@ -45,7 +51,7 @@ A_n=r_n^2 θ(α-α^(-1))/2
 
 where θ is degrees between the wheel spokes (Nelder 1962).
 
-## Practical Parameters
+## Nelder Plot Parameters for practitioner
 
 The parameterization with practical application use the formula proposed by Parrot et al. (2012) to convert the variable into standard Nelder plot parameters. The calculation is as follow:  
 
