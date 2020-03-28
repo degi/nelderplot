@@ -17,6 +17,18 @@ The source code location:
 
 The software is designed to be used by either forestry practitioner or those who one to explore the Nelder plot parameterization. Two type of input parameters option is available: practical and standard parametrization. The plot design will be automatically displayed as soon as the required parameters are satisfied.  
 
+## Installation
+
+Download the source code, and go to the app root folder and type: 
+```
+python setup.py install
+```
+It will install the required files. After, run the application by typing:
+```
+python -m nelderplot.app
+```
+*NOTE: This app was developed using python 3*
+
 ### Input
 
 #### Practical Parameters
